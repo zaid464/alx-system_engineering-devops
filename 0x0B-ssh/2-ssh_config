@@ -1,4 +1,7 @@
-# connect to a server without typing a password
+#!/usr/bin/env bash
+# ssh client configuration
+
+sendEnv LANG LC_*
 Host 718-web-01
 User ubuntu
 HostName 35.231.100.106
